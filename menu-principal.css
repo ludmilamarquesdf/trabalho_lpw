@@ -1,8 +1,10 @@
 .menu-navegacao{
-    width:100%;
-    background:#444444;
-    border-bottom:3px solid #ff0000;
-    padding:15px 40px;
+   width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-image:linear-gradient(#000000, #3f0000);
+    padding:5px 40px;
     box-sizing:border-box;
 }
 
@@ -31,8 +33,6 @@
 .links-menu a:hover{
     color:#ff0000;
 }
-
-/* ===== SUBMENU ===== */
 
 .submenu{
     display:none;
@@ -65,4 +65,14 @@
 
 .dropdown:hover .submenu{
     display:block;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;   
+    height: auto;
 }
