@@ -16,8 +16,20 @@ body {
 
 .topo-pagina h1 {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    font-size: 30px;
 }
+
 h2 {
     margin-left: 20px;
     color: white;
+}
+ 
+p {
+    color: white;
+}
+
+.curios p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
 }
