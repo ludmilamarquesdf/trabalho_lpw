@@ -25,13 +25,13 @@
     color:white;
     text-decoration:none;
     font-size:18px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:sans-serif, Arial, Helvetica;
     font-weight:bold;
     transition:0.3s;
 }
 
 .links-menu a:hover{
-    color:#ff0000;
+    color:#b6b6b6;
 }
 
 .submenu{
@@ -44,8 +44,6 @@
     padding:10px 0;
     margin:0;
     min-width:180px;
-    border:1px solid #ff0000;
-    border-radius:5px;
 }
 
 .submenu li{
@@ -59,7 +57,8 @@
 }
 
 .submenu a:hover{
-    background:#ff0000;
+    text-decoration: underline;
+    background-color: #3f0000;
     color:white;
 }
 
@@ -73,6 +72,6 @@
 }
 
 .logo img{
-    width: 150px;   
+    width: 140px;   
     height: auto;
 }
