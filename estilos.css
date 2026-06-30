@@ -235,7 +235,7 @@ body {
     text-align: left;
     margin-left: 5px;
     margin-top: 0px;
-    color: white;
+    color: #000000;
 }
 
 .video-placeholder iframe {
@@ -260,6 +260,10 @@ body {
     margin-bottom: 15px;
     border-bottom: 2px solid #5a0000;
     padding-bottom: 5px;
+    color: #a8a8a8;
+}
+
+.cast-list p {
     color: #a8a8a8;
 }
 
@@ -327,10 +331,11 @@ footer {
     height: 450px;
     border: 1px solid #3f0000;
     margin: 0;
+    display: block;
 }
 
 .sobrenos .info p {
-    color: white;
+    color: #a8a8a8;
     text-align: justify;
     font-size: 18px;
     margin-left: 20px;
