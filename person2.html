@@ -6,6 +6,8 @@
   <title>Alice in Borderland | Usagi</title>
 
   <link rel="stylesheet" href="estilo-person.css"/>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="menu-principal.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,19 +22,24 @@
   <div class="vignette"></div>
 
   <header class="navbar">
+      <nav class="menu-navegacao">
     <div class="logo">
-      INFO NAVIGATION
-    </div>
+    <img src="img/Nome-alice.png" alt="Logo Alice in Borderland">
+</div>
+    <ul class="links-menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="#">Personagens ▾</a>
+            <ul class="submenu">
+                <li><a href="person1.html">Arisu</a></li>
+                <li><a href="person2.html">Usagi</a></li>
+            </ul>
+        </li>
 
-    <nav class="menu">
-      <a href="#">HOME</a>
-      <a href="#">GALLERY</a>
-      <a href="#">CONTACTS</a>
-    </nav>
-
-    <div class="menu-icon">
-      <i class="fa fa-bars"></i>
-    </div>
+        <li><a href="curios.html">Curiosidades</a></li>
+        <li><a href="sobrenos.html">About Us</a></li>
+    </ul>
+</nav>
   </header>
 
   <section class="hero">
