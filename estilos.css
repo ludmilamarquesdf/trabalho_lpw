@@ -360,3 +360,8 @@ footer {
     justify-content: space-between;
     width: 100%;
 }
+
+::selection {
+  color: white;
+  background-color: rgb(148, 69, 69);
+}
