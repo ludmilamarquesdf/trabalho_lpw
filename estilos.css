@@ -80,7 +80,6 @@ body {
 }
 
 .inicio-pagina {
-    position: relative;
     background-image: url('img/Imagem-pagina-degrade.png');
     background-size: cover;
     background-position: center;
@@ -165,6 +164,7 @@ body {
     text-align: left;
     margin-left: 5px;
     margin-top: 0px;
+    color: #dbdbdb;
 }
 
 .movie-grid {
@@ -246,7 +246,7 @@ body {
     text-align: left;
     margin-left: 5px;
     margin-top: 0px;
-    color: #000000;
+    color: #d6d6d6;
 }
 
 .video-placeholder iframe {
