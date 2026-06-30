@@ -250,10 +250,10 @@ body {
 footer {
   padding: 60px 80px;
   display: flex;
-  flex-direction: column; /* Alinha os itens em linha vertical */
-  justify-content: center; /* Centraliza verticalmente se houver altura */
-  align-items: center; /* Centraliza horizontalmente todos os textos e links */
-  text-align: center; /* Garante o alinhamento do texto interno */
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
   gap: 15px; /
   font-size: 11px;
   letter-spacing: 3px;
