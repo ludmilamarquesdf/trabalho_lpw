@@ -250,7 +250,11 @@ body {
 footer {
   padding: 60px 80px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* Alinha os itens em linha vertical */
+  justify-content: center; /* Centraliza verticalmente se houver altura */
+  align-items: center; /* Centraliza horizontalmente todos os textos e links */
+  text-align: center; /* Garante o alinhamento do texto interno */
+  gap: 15px; /
   font-size: 11px;
   letter-spacing: 3px;
   opacity: 0.6;
@@ -267,7 +271,15 @@ footer {
   flex-shrink: 0;           
 }
 
-.movie-card:hover {
+.episode-grid iframe:hover {
   filter: grayscale(0%);    
   transform: scale(1.05);   
+}
+
+.episode-grid iframe:hover {
+  border: 2px solid rgb(255, 0, 0);  
+}
+
+.episode-grid iframe {
+  border: 2px solid rgb(104, 0, 0);  
 }
