@@ -24,10 +24,10 @@ body {
 
 .hero {
  position: relative; 
-  height: 100vh; /* Ocupa exatamente a altura total da tela */
+  height: 100vh; 
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Empurra o texto para a direita */
+  justify-content: flex-end; 
   border-bottom: 30px solid rgb(37, 37, 37);
   padding: 0 60px 0 0; 
   overflow: hidden;
@@ -54,7 +54,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centraliza perfeitamente no meio da metade esquerda */
+  transform: translate(-50%, -50%); 
   width: 320px;  
   opacity: 0.9; 
   height: auto;
@@ -63,7 +63,7 @@ body {
 }
 
 .hero-right {
-  max-width: 45%; /* Garante que o texto não invada a metade da imagem */
+  max-width: 45%;
   width: 100%;
   z-index: 2;
 }
