@@ -52,8 +52,8 @@ body {
 
 .signature img { 
   position: absolute; 
-  top: 50%; 
-  left: 50%; 
+  top: 85%; 
+  left: 90%; 
   transform: translate(-50%, -50%); 
   width: 320px; 
   opacity: 0.9; 
