@@ -106,7 +106,7 @@ h2 {
     left: 0;
     transform: translateY(-50%);
     width: 100%;
-    height: 250px; 
+    height: 300px; 
     background-color: #3a0000; 
     z-index: 1; 
 }
@@ -116,6 +116,18 @@ h2 {
     z-index: 2; 
     flex: 1;
     margin-right: 40px;
+}
+
+.film-container h2{
+    color: #b90d0d;
+    margin-left: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-shadow: 0 0 5px #af0000,
+                0 0 10px #af0000,
+                0 0 20px #ad0000,
+                0 0 40px #9e2121,
+                0 0 80px #ff4d4d;
 }
 
 .film-container p {
@@ -158,13 +170,13 @@ h2 {
     display: flex;
     gap: 20px;
     overflow-x: hidden; 
-    scroll-behavior: smooth; /* Faz a rolagem ser suave ao clicar */
+    scroll-behavior: smooth; 
     width: 100%;
     padding: 15px 0;
 }
 
 .movie-card {
-    flex: 0 0 190px; /* Impede que o card encolha. Cada um terá fixo 220px de largura */
+    flex: 0 0 190px; 
     background-color: #1a1a1a;
     border: 3px solid #3a0000;
     height: 300px;
@@ -179,7 +191,7 @@ h2 {
 
 .movie-card:hover {
     transform: scale(1.05);
-    border-color: #ff0000;
+    border-color: #970000;
 }
 
 .arrow {
@@ -188,18 +200,17 @@ h2 {
     height: 350px;
     width: 50px;
     background-color: transparent; 
-    color: rgba(255, 255, 255); /* A seta fica branca, mas meio transparente por padrão */
+    color: rgba(255, 255, 255); 
     border: none;
-    outline: none; /* Remove aquela bordinha chata de seleção do navegador */
-    font-size: 2.5rem; /* Aumentei um pouco o tamanho para ela aparecer bem */
+    outline: none; 
+    font-size: 2.5rem; 
     cursor: pointer;
     z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
-    
-    /* A transição agora vai focar na COR da seta (color) e na aparição (opacity) */
+
     transition: opacity 0.3s ease, color 0.2s ease;
 }
 
@@ -261,7 +272,7 @@ h2 {
     color: #a8a8a8;
 }
 
-cast-grid {
+.cast-grid p {
     color: #dcdcdc;
     padding: 3px 0;
 }
